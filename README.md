@@ -48,7 +48,7 @@ Because this project runs entirely inside **Google Colab**:
 
 - Integrate with **dbt** for modular SQL, lineage tracking, and automated tests.  
 - SCD Design for Dim Promotion would be high valuable for most of the business use. The current promotion table does not need this.
-- Persist DuckDB database in **Google Drive** or migrate to **BigQuery** / **Databricks** for scalability.  
+- Migrate DuckDB database  to **BigQuery** / **Databricks** for scalability.  
 - Expand BI layer: add dashboards for **customer segmentation**
 
 ---
