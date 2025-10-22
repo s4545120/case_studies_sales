@@ -38,7 +38,7 @@ The goal is to model a realistic retail dataset from raw CSVs to analytics-ready
 Because this project runs entirely inside **Google Colab**:
 
 - Session storage is **temporary** – all data and DuckDB files reset when the runtime disconnects.  
-- **No persistent scheduling** – you can’t automate refreshes natively.  
+- **No persistent scheduling** – Cannot refreshes natively.  
 - Limited local resources – suitable for demo-scale data only.  
 - Hence, only **two notebooks** were used to keep the pipeline efficient within Colab constraints.
 
